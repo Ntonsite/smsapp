@@ -24,7 +24,7 @@ if(!function_exists('sendSms')){
 
         $response = curl_exec($curl);
         $err = curl_error($curl);
-        Log::info("----------Message sent Successfully to ".$number);
+        Log::info("--------->Message sent Successfully to ".$number);
         curl_close($curl);
     }
 }

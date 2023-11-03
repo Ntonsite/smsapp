@@ -11,10 +11,10 @@ class SmsController extends Controller
         $body = $request->getContent();
 
         if(empty($body)){
-            $body = "UKATILI NA AIBU KUBWA KWA ULICHOKIFANYA MUNGU ANAKUONA";
+            $body = "LOOK AT YOU";
         }
-        $number = '255787686666';
+        $number = '255677044810';
 
-        return sendSms($body,$number);
+        return sendSms($body,$number);  
     }
 }
